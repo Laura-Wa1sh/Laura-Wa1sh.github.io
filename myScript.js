@@ -1,4 +1,4 @@
+import _ from "lodash";
 function myFunction(desc) {
-    console.log("desc = " + desc);
-    document.getElementById("title").innerHTML = desc;
+    document.getElementById("title").innerHTML = _.capitalize(desc);
   }
