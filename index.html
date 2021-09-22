@@ -37,6 +37,7 @@
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
     <script src="myScript.js"></script>
+    <script src="lodash.js"></script>
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
@@ -44,7 +45,7 @@
       <h3 class="float-md-start mb-0">Laura's Page</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link active" aria-current="page" href="#" onclick="myFunction('home')">Home</a>
-        <a class="nav-link" href="#" onclick="myFunction('features')">Features</a>
+        <a class="nav-link" href="#" onclick="myFunction(_.capitalize('features'))">Features</a>
         <a class="nav-link" href="#" onclick="myFunction('contact')">Contact</a>
       </nav>
     </div>
